@@ -1,2 +1,30 @@
 /* 'The Shopping List' styles */
 
+body {
+	background: url("../img/slbackground.jpg") black;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 0 7%;
+}
+
+.content {
+	text-align: center;
+	position: relative;
+	background-color: lightgray;
+	margin: 0 auto;
+	opacity: 0.7;
+	width: 100%;
+}
+
+hr {
+	margin-bottom: 4.5em;
+}
+
+.intro h1{
+	font-style: italic;
+	letter-spacing: .10em;
+}
+
+.list ul{
+	list-style: none;
+}
